@@ -46,8 +46,7 @@ useEffect(() => {
               darkMode ? "text-zinc-400" : "text-zinc-600"
             }`}
           >
-            Temukan arti kode plat, jenis plat kendaraan, hingga referensi resmi
-            dengan tampilan sederhana dan mudah dipahami.
+            Temukan arti nomor plat kendaraan hingga jenis plat kendaraan secara umum di NopolIndo
           </p>
         </section>
 
@@ -57,21 +56,21 @@ useEffect(() => {
     {[
       {
         title: "Temukan Plat",
-        desc: "Cari plat berdasarkan kode wilayah",
+        desc: "Cari plat berdasarkan kode wilayah secara umum",
         icon: <FaSearchLocation />,
         href: "/temukan-plat",
       },
       {
         title: "Jenis Plat",
-        desc: "Macam-macam plat kendaraan di Indonesia",
+        desc: "Macam-macam plat kendaraan di Indonesia secara umum",
         icon: <FaCarSide />,
         href: "/jenis-plat",
       },
       {
-        title: "Sumber",
-        desc: "Referensi dan dasar informasi plat",
+        title: "Tentang",
+        desc: "Referensi dan informasi seputar NopolIndo",
         icon: <FaBook />,
-        href: "/sumber",
+        href: "/tentang",
       },
     ].map((item, i) => (
       <Link key={i} href={item.href} className="flex justify-center">
@@ -117,15 +116,14 @@ useEffect(() => {
       Cara Membaca Plat Nomor Kendaraan
     </h2>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-      {/* IMAGE SLIDER */}
-      <div className="flex flex-col items-center">
+    {/* GRID UNTUK KIRI-KANAN */}
+    <div className="grid md:grid-cols-2 gap-8 items-center">
+      {/* KIRI: IMAGE SLIDER */}
+      <div className="flex flex-col items-center w-full">
         <div className="relative w-full max-w-[420px] aspect-[21/11] rounded-lg shadow-md overflow-hidden cursor-pointer">
           <div
             className="flex transition-transform duration-500 ease-out"
-            style={{
-              transform: `translateX(-${currentIndex * 100}%)`,
-            }}
+            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
           >
             {["/image/1.png", "/image/7.png"].map((src, index) => (
               <Image
@@ -142,7 +140,7 @@ useEffect(() => {
         </div>
 
         {/* DOT NAVIGATION */}
-        <div className="flex mt-4 space-x-2">
+        <div className="flex mt-2 justify-center space-x-2">
           {["/image/1.png", "/image/7.png"].map((_, index) => (
             <button
               key={index}
@@ -155,42 +153,55 @@ useEffect(() => {
             />
           ))}
         </div>
+
+        {/* CONTOH */}
+        <p className={`mt-4 text-sm md:text-base ${darkMode ? "text-zinc-400" : "text-zinc-600"}`}>
+          Contoh: <span className="font-semibold">B 1234 CD</span> berarti kendaraan berasal dari wilayah Jakarta dengan nomor registrasi tertentu.
+        </p>
       </div>
 
-      {/* PENJELASAN */}
+      {/* KANAN: PENJELASAN */}
       <div className="space-y-4 text-sm md:text-base leading-relaxed">
         <p>
-          Plat nomor kendaraan di Indonesia memiliki pola umum:
-          <span className="font-semibold"> Huruf – Angka – Huruf</span>.
-          Setiap bagian memiliki arti tersendiri.
+          Plat nomor kendaraan di Indonesia memiliki pola umum:{" "}
+          <span className="font-semibold">Huruf – Angka – Huruf</span>. Setiap bagian memiliki arti tersendiri.
         </p>
 
-        <ul className="space-y-2 list-disc list-inside">
-          <li>
-            <span className="font-semibold">Kode Huruf Depan</span>  
-            <br />
-            Menunjukkan wilayah atau provinsi kendaraan terdaftar  
-            <span className="italic">(contoh: B = Jakarta, D = Bandung)</span>
-          </li>
+<ul className="list-decimal list-inside space-y-4">
+  <li className="ml-2">
+    <p className="font-semibold text-yellow-400 inline">Kode Huruf Depan</p>
+    <p className="ml-4 mt-1">
+      Menunjukkan wilayah kendaraan terdaftar atau daerah dikeluarkannya TNKB.{" "}
+      <span className="italic">(contoh: B = Jakarta, D = Bandung)</span>
+    </p>
+  </li>
 
-          <li>
-            <span className="font-semibold">Angka Tengah</span>  
-            <br />
-            Nomor registrasi kendaraan
-          </li>
+  <li className="ml-2">
+    <p className="font-semibold text-blue-500 inline">Angka Tengah</p>
+    <p className="ml-4 mt-1">
+      Alokasi Nomor TNKB. Lihat detail di{" "}
+      <Link
+        href="/jenis-plat"
+        className={`text-sky-600 hover:underline ${darkMode ? "text-sky-400" : ""}`}
+      >
+        Jenis Plat
+      </Link>.
+    </p>
+  </li>
 
-          <li>
-            <span className="font-semibold">Kode Huruf Belakang</span>  
-            <br />
-            Menunjukkan lokasi spesifik / jenis kendaraan di wilayah tersebut
-          </li>
-        </ul>
+  <li className="ml-2">
+    <p className="font-semibold text-green-500 inline">Kode Huruf Belakang</p>
+    <p className="ml-4 mt-1">
+      Menunjukkan lokasi sub-daerah kendaraan dan jenis kendaraan.
+    </p>
+  </li>
 
-        <p className={darkMode ? "text-zinc-400" : "text-zinc-600"}>
-          Contoh: <span className="font-semibold">B 1234 CD</span> berarti
-          kendaraan berasal dari wilayah Jakarta dengan nomor registrasi
-          tertentu.
-        </p>
+  <li className="ml-2">
+    <p className="font-semibold text-red-400 inline">Kode Masa Berlaku</p>
+    <p className="ml-4 mt-1">Menunjukkan masa penggantian TNKB setiap 5 tahun.</p>
+  </li>
+</ul>
+
       </div>
     </div>
 
@@ -220,29 +231,6 @@ useEffect(() => {
   </div>
 </section>
 
-        {/* INFO */}
-        <section className="max-w-5xl mx-auto px-6 mt-20">
-          <div
-            className={`rounded-xl p-6 border ${
-              darkMode
-                ? "bg-zinc-800 border-zinc-700"
-                : "bg-white border-zinc-200"
-            }`}
-          >
-            <h2 className="text-xl font-semibold mb-2">
-              Tentang Website Ini
-            </h2>
-            <p
-              className={`text-sm leading-relaxed ${
-                darkMode ? "text-zinc-400" : "text-zinc-600"
-              }`}
-            >
-              Website ini dibuat sebagai referensi informasi plat nomor kendaraan
-              di Indonesia, disusun agar mudah diakses, ringan, dan informatif
-              untuk semua kalangan.
-            </p>
-          </div>
-        </section>
       </main>
 
       <Footer darkMode={darkMode} />

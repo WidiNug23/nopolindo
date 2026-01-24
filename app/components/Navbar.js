@@ -15,40 +15,44 @@ export default function Navbar({ darkMode, setDarkMode }) {
     }
   }, [setDarkMode]);
 
-  // Simpan theme saat berubah
   const toggleTheme = () => {
     setDarkMode(!darkMode);
     localStorage.setItem("darkMode", !darkMode);
   };
 
+  // Tulisan menu lebih besar
   const linkClass =
-    "block px-3 py-2 rounded-md text-sm font-medium transition hover:opacity-80";
+    "relative block px-3 py-2 text-base md:text-lg font-medium transition-all hover:text-amber-550 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-sky-500 after:transition-all hover:after:w-full";
 
   return (
     <nav
-      className={`sticky top-0 z-50 backdrop-blur border-b ${
+      className={`sticky top-0 z-50 backdrop-blur-md shadow-lg border-b transition-colors duration-500 ${
         darkMode
-          ? "bg-zinc-800/90 border-zinc-700"
-          : "bg-zinc-200/90 border-zinc-300"
+          ? "bg-zinc-800/90 border-zinc-700 text-zinc-100"
+          : "bg-white/90 border-zinc-200 text-zinc-900"
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-lg font-bold">NopolIndo</h1>
+        {/* Logo */}
+        <h1 className="text-2xl md:text-3xl font-bold text-grey-500 tracking-wide">
+          NopolIndo
+        </h1>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex gap-2">
+        <div className="hidden md:flex gap-6 items-center">
           <Link href="/" className={linkClass}>Beranda</Link>
           <Link href="/temukan-plat" className={linkClass}>Temukan Plat</Link>
           <Link href="/jenis-plat" className={linkClass}>Jenis Plat</Link>
-          <Link href="/sumber" className={linkClass}>Sumber</Link>
+          <Link href="/tentang" className={linkClass}>Tentang</Link>
         </div>
 
+        {/* Right controls */}
         <div className="flex items-center gap-3">
           {/* Theme toggle */}
           <button
             onClick={toggleTheme}
-            className={`p-2 rounded-lg transition ${
-              darkMode ? "hover:bg-zinc-700" : "hover:bg-zinc-400"
+            className={`p-2 rounded-full transition-colors duration-300 ${
+              darkMode ? "hover:bg-zinc-700" : "hover:bg-zinc-300"
             }`}
           >
             {darkMode ? <FaMoon size={18} /> : <FaSun size={18} />}
@@ -56,24 +60,25 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 rounded-md hover:bg-zinc-300 transition-colors duration-300"
             onClick={() => setOpen(!open)}
           >
-            <FaBars />
+            <FaBars size={20} />
           </button>
         </div>
       </div>
 
       {/* Mobile menu */}
-      {open && (
-        <div className="md:hidden px-6 pb-4 space-y-1">
-          <Link href="/" className={linkClass}>Beranda</Link>
-          <Link href="/temukan-plat" className={linkClass}>Temukan Plat</Link>
-          <Link href="/jenis-plat" className={linkClass}>Jenis Plat</Link>
-          <Link href="/custom-plat" className={linkClass}>Custom Plat</Link>
-          <Link href="/sumber" className={linkClass}>Sumber</Link>
-        </div>
-      )}
+      <div
+        className={`md:hidden px-6 pb-4 space-y-2 transition-all duration-300 overflow-hidden ${
+          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        }`}
+      >
+        <Link href="/" className={linkClass}>Beranda</Link>
+        <Link href="/temukan-plat" className={linkClass}>Temukan Plat</Link>
+        <Link href="/jenis-plat" className={linkClass}>Jenis Plat</Link>
+        <Link href="/tentang" className={linkClass}>Tentang</Link>
+      </div>
     </nav>
   );
 }
