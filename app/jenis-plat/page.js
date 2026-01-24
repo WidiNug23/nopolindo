@@ -389,6 +389,16 @@ export default function JenisPlat() {
 
 
       </main>
+      {/* Catatan kecil bawah */}
+<div className="text-center text-xs text-zinc-500 py-2 px-4 italic">
+  Apabila terdapat kekeliruan, silakan hubungi{" "}
+  <a
+    href="mailto:infonopolindo@gmail.com"
+    className="hover:text-sky-500 transition-colors duration-300"
+  >
+    infonopolindo@gmail.com
+  </a>
+</div>
 
       <Footer darkMode={darkMode} />
     </div>
