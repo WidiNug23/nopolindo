@@ -1,0 +1,533 @@
+kode_plat;provinsi;kode_akhir_awal;wilayah
+BA;Sumatera Barat;A*/B*/O*/Q*/R*;Kota Padang
+BA;Sumatera Barat;C*/X*;Kabupaten Lima Puluh Kota
+BA;Sumatera Barat;D*;Kabupaten Pasaman
+BA;Sumatera Barat;E*;Kabupaten Tanah Datar
+BA;Sumatera Barat;F*;Kabupaten Padang Pariaman
+BA;Sumatera Barat;G*/I*;Kabupaten Pesisir Selatan
+BA;Sumatera Barat;H*;Kabupaten Solok
+BA;Sumatera Barat;J*;Kota Sawahlunto
+BA;Sumatera Barat;K*;Kabupaten Sijunjung
+BA;Sumatera Barat;L*;Kota Bukittinggi
+BA;Sumatera Barat;M*;Kota Payakumbuh
+BA;Sumatera Barat;N*;Kota Padang Panjang
+BA;Sumatera Barat;P*;Kota Solok
+BA;Sumatera Barat;S*;Kabupaten Pasaman Barat
+BA;Sumatera Barat;T*/Z*;Kabupaten Agam
+BA;Sumatera Barat;U*;Kabupaten Kepulauan Mentawai
+BA;Sumatera Barat;V*;Kabupaten Dharmasraya
+BA;Sumatera Barat;W*;Kota Pariaman
+BA;Sumatera Barat;Y*;Kabupaten Solok Selatan
+BB;Sumatera Utara;A*/L*/M*;Kota Sibolga
+BB;Sumatera Utara;B*;Kabupaten Tapanuli Utara
+BB;Sumatera Utara;C*;Kabupaten Samosir
+BB;Sumatera Utara;D*;Kabupaten Humbang Hasundutan
+BB;Sumatera Utara;E*;Kabupaten Toba
+BB;Sumatera Utara;F*/H*;Kota Padang Sidempuan
+BB;Sumatera Utara;G*;Kabupaten Tapanuli Selatan
+BB;Sumatera Utara;J*;Kabupaten Padang Lawas
+BB;Sumatera Utara;K*;Kabupaten Padang Lawas Utara
+BB;Sumatera Utara;N*;Kabupaten Tapanuli Tengah
+BB;Sumatera Utara;Q*;Kabupaten Nias Utara
+BB;Sumatera Utara;R*;Kabupaten Mandailing Natal
+BB;Sumatera Utara;T*;Kota Gunungsitoli
+BB;Sumatera Utara;U*;Kabupaten Nias Barat
+BB;Sumatera Utara;V*;Kabupaten Nias
+BB;Sumatera Utara;W*;Kabupaten Nias Selatan
+BB;Sumatera Utara;Y*;Kabupaten Dairi
+BB;Sumatera Utara;Z*;Kabupaten Pakpak Bharat
+;;;
+BD;Bengkulu;A*/C*/E*/L*;Kota Bengkulu
+BD;Bengkulu;B*/M*;Kabupaten Bengkulu Selatan
+BD;Bengkulu;D*/S*;Kabupaten Bengkulu Utara
+BD;Bengkulu;G*;Kabupaten Kepahiang
+BD;Bengkulu;H*;Kabupaten Lebong
+BD;Bengkulu;K*;Kabupaten Rejang Lebong
+BD;Bengkulu;N*;Kabupaten Mukomuko
+BD;Bengkulu;P*;Kabupaten Seluma
+BD;Bengkulu;W*;Kabupaten Kaur
+BD;Bengkulu;Y*;Kabupaten Bengkulu Tengah
+;;;
+BE;Lampung;A**/B*/C*/Y**;Kota Bandar Lampung
+BE;Lampung;D**/E*/O*;Kabupaten Lampung Selatan
+BE;Lampung;F**;Kota Metro
+BE;Lampung;G**/H*/I*;Kabupaten Lampung Tengah
+BE;Lampung;J**/K*;Kabupaten Lampung Utara
+BE;Lampung;L**;Kabupaten Mesuji
+BE;Lampung;M**;Kabupaten Lampung Barat
+BE;Lampung;N**/P*;Kabupaten Lampung Timur
+BE;Lampung;Q**;Kabupaten Tulang Bawang Barat
+BE;Lampung;R**;Kabupaten Pesawaran
+BE;Lampung;S**/T*;Kabupaten Tulang Bawang
+BE;Lampung;V**/Z*;Kabupaten Tanggamus
+BE;Lampung;U**;Kabupaten Pringsewu
+BE;Lampung;W**;Kabupaten Way Kanan
+BE;Lampung;X**;Kabupaten Pesisir Barat
+;;;
+BG;Sumatera Selatan;A**/I*/L**/M*/N*;Kota Palembang
+BG;Sumatera Selatan;P*/Q*/R*/U*/X*/Z*;Kota Palembang
+BG;Sumatera Selatan;B**;Kabupaten Musi Banyuasin
+BG;Sumatera Selatan;C**;Kota Prabumulih
+BG;Sumatera Selatan;D**;Kabupaten Muara Enim
+BG;Sumatera Selatan;E**;Kabupaten Lahat
+BG;Sumatera Selatan;F**;Kabupaten Ogan Komering Ulu
+BG;Sumatera Selatan;G**;Kabupaten Musi Rawas
+BG;Sumatera Selatan;H**;Kota Lubuk Linggau
+BG;Sumatera Selatan;J**;Kabupaten Banyuasin
+BG;Sumatera Selatan;K**;Kabupaten Ogan Komering Ilir
+BG;Sumatera Selatan;O**;Kabupaten Penukal Abab Lematang Ilir
+BG;Sumatera Selatan;S**;Kabupaten Empat Lawang
+BG;Sumatera Selatan;T**;Kabupaten Ogan Ilir
+BG;Sumatera Selatan;V**;Kabupaten Ogan Komering Ulu Selatan
+BG;Sumatera Selatan;W**;Kota Pagar Alam
+BG;Sumatera Selatan;Y**;Kabupaten Ogan Komering Ulu Timur
+;;;
+BH;Jambi;A*/L*/M*/N*/Y*/Z*;Kota Jambi
+BH;Jambi;B*/V*;Kabupaten Batanghari
+BH;Jambi;C*/W*;Kabupaten Tebo
+BH;Jambi;D*;Kabupaten Kerinci
+BH;Jambi;E*;Kabupaten Tanjung Jabung Barat
+BH;Jambi;F*/P*;Kabupaten Merangin
+BH;Jambi;G*/H*;Kabupaten Muaro Jambi
+BH;Jambi;K*/U*;Kabupaten Bungo
+BH;Jambi;R*;Kota Sungai Penuh
+BH;Jambi;Q*/S*;Kabupaten Sarolangun
+BH;Jambi;T*;Kabupaten Tanjung Jabung Timur
+;;;
+BK;Sumatera Utara;A**/B*/C*/D*/E*/F*;Kota Medan
+BK;Sumatera Utara;G*/H*/I*/K*/L**;Kota Medan
+BK;Sumatera Utara;J**;Kabupaten Labuhanbatu Utara
+BK;Sumatera Utara;M**;Kabupaten Deli Serdang
+BK;Sumatera Utara;N**;Kota Tebing Tinggi
+BK;Sumatera Utara;O**;Kabupaten Batubara
+BK;Sumatera Utara;P**;Kabupaten Langkat
+BK;Sumatera Utara;Q**;Kota Tanjung Balai
+BK;Sumatera Utara;R**;Kota Binjai
+BK;Sumatera Utara;S**;Kabupaten Karo
+BK;Sumatera Utara;T**/U*;Kabupaten Simalungun
+BK;Sumatera Utara;V**;Kabupaten Asahan
+BK;Sumatera Utara;W**;Kota Pematang Siantar
+BK;Sumatera Utara;X**;Kabupaten Serdang Bedagai
+BK;Sumatera Utara;Y**;Kabupaten Labuhanbatu
+BK;Sumatera Utara;Z**;Kabupaten Labuhanbatu Selatan
+;;;
+BL;Aceh;A**/J*/L**;Kota Banda Aceh
+BL;Aceh;B**;Kabupaten Aceh Besar
+BL;Aceh;C**;Kabupaten Aceh Barat Daya
+BL;Aceh;D**;Kabupaten Aceh Timur
+BL;Aceh;E**;Kabupaten Aceh Barat
+BL;Aceh;F**;Kota Langsa
+BL;Aceh;G**;Kabupaten Aceh Tengah
+BL;Aceh;H**;Kabupaten Gayo Lues
+BL;Aceh;I**;Kota Subulussalam
+BL;Aceh;K**/Q*;Kabupaten Aceh Utara
+BL;Aceh;M**;Kota Sabang
+BL;Aceh;N**;Kota Lhokseumawe
+BL;Aceh;O**;Kabupaten Pidie Jaya
+BL;Aceh;P**;Kabupaten Pidie
+BL;Aceh;R**;Kabupaten Aceh Singkil
+BL;Aceh;S**;Kabupaten Simeulue
+BL;Aceh;T**;Kabupaten Aceh Selatan
+BL;Aceh;U**;Kabupaten Aceh Tamiang
+BL;Aceh;V**;Kabupaten Nagan Raya
+BL;Aceh;W**;Kabupaten Aceh Jaya
+BL;Aceh;X**;Kabupaten Aceh Tenggara
+BL;Aceh;Y**;Kabupaten Bener Meriah
+BL;Aceh;Z**;Kabupaten Bireuen
+;;;
+BM;Riau;A**/J*/L**/N*/Q*/T*;Kota Pekanbaru
+BM;Riau;B**/V*;Kabupaten Indragiri Hulu
+BM;Riau;C**/I*;Kabupaten Pelalawan
+BM;Riau;D**/E*;Kabupaten Bengkalis
+BM;Riau;F**/O*/Z*;Kabupaten Kampar
+BM;Riau;G**;Kabupaten Indragiri Hilir
+BM;Riau;H**/R*;Kota Dumai
+BM;Riau;K**/X*;Kabupaten Kuantan Singingi
+BM;Riau;M**/U*;Kabupaten Rokan Hulu
+BM;Riau;P**/W*;Kabupaten Rokan Hilir
+BM;Riau;S**/Y*;Kabupaten Siak
+BM;Riau;X**;Kabupaten Kepulauan Meranti
+;;;
+BN;Kepulauan Bangka Belitung;A*;Kota Pangkal Pinang
+BN;Kepulauan Bangka Belitung;B*;Kabupaten Bangka
+BN;Kepulauan Bangka Belitung;C*;Kabupaten Bangka Tengah
+BN;Kepulauan Bangka Belitung;D*;Kabupaten Bangka Barat
+BN;Kepulauan Bangka Belitung;E*;Kabupaten Bangka Selatan
+BN;Kepulauan Bangka Belitung;F*;Kabupaten Belitung
+BN;Kepulauan Bangka Belitung;G*;Kabupaten Belitung Timur
+;;;
+BP;Kepulauan Riau;A*/T*;Kota Tanjung Pinang
+BP;Kepulauan Riau;B*;Kabupaten Bintan
+BP;Kepulauan Riau;C*/D*/E*/F*/G*/H*;Kota Batam
+BP;Kepulauan Riau;I*/J*/M*/P*/Q*/R*/Z*;Kota Batam
+BP;Kepulauan Riau;K*;Kabupaten Karimun
+BP;Kepulauan Riau;N*;Kabupaten Natuna
+BP;Kepulauan Riau;O*;Kabupaten Lingga
+BP;Kepulauan Riau;S*;Kabupaten Kepulauan Anambas
+;;;
+A;Banten;A*/B*/C*/D*;Kota Serang
+A;Banten;E*/F*/G*/H*/I*;Kabupaten Serang
+A;Banten;J*/K*/L*/M*/N*;Kabupaten Pandeglang
+A;Banten;O*/U*;Kota Cilegon
+A;Banten;P*/R*/S*/T*;Kabupaten Lebak
+A;Banten;V*/W*/X*/Y*/Z*;Kabupaten Tangerang
+;;;
+B;DKI Jakarta;B**;Kota Administrasi Jakarta Barat
+B;DKI Jakarta;C**/V**;Kota Tangerang
+B;DKI Jakarta;E**/Z**;Kota Depok
+B;DKI Jakarta;F**;Kabupaten Bekasi
+B;DKI Jakarta;G**/N**;Kabupaten Tangerang
+B;DKI Jakarta;K**;Kota Bekasi
+B;DKI Jakarta;P**;Kota Administrasi Jakarta Pusat
+B;DKI Jakarta;S**;Kota Administrasi Jakarta Selatan
+B;DKI Jakarta;T**;Kota Administrasi Jakarta Timur
+B;DKI Jakarta;U**;Kota Administrasi Jakarta Utara
+B;DKI Jakarta;W**;Kota Tangerang Selatan
+;;;
+D;Karesidenan Priangan (Jawa Barat);A**/B*/C*/D*/E*/F*;Kota Bandung
+D;Karesidenan Priangan (Jawa Barat);M*/N*/O*/P*/R*;Kota Bandung
+D;Karesidenan Priangan (Jawa Barat);G*/H*/I*/J*/K*/L*;Kota Bandung
+D;Karesidenan Priangan (Jawa Barat);S**/T*;Kota Cimahi
+D;Karesidenan Priangan (Jawa Barat);U**/X**/Z**;Kabupaten Bandung Barat
+D;Karesidenan Priangan (Jawa Barat);V**/W*/Y**;Kabupaten Bandung
+;;;
+E;Karesidenan Cirebon (Jawa Barat);A*/B*/C*/D*/E*/F*/G*;Kota Cirebon
+E;Karesidenan Cirebon (Jawa Barat);H*/I*/J*/K*/L*/M*/N*/O*;Kabupaten Cirebon
+E;Karesidenan Cirebon (Jawa Barat);P**/Q*/R*/S*/T*;Kabupaten Indramayu
+E;Karesidenan Cirebon (Jawa Barat);U*/V*/W*/X*;Kabupaten Majalengka
+E;Karesidenan Cirebon (Jawa Barat);Y**/Z*;Kabupaten Kuningan
+;;;
+F;Karesidenan Bogor (Jawa Barat);A*/B*/C*/D*/E*;Kota Bogor
+F;Karesidenan Bogor (Jawa Barat);F**/G*/H*/I*/J*/K*;Kabupaten Bogor
+F;Karesidenan Bogor (Jawa Barat);L*/M*/N*/O*/P*/R*;Kabupaten Bogor
+F;Karesidenan Bogor (Jawa Barat);Q*/U**/V*;Kabupaten Sukabumi
+F;Karesidenan Bogor (Jawa Barat);S*/T*;Kota Sukabumi
+F;Karesidenan Bogor (Jawa Barat);W*/X*/Y*/Z*;Kabupaten Cianjur
+;;;
+T;Karesidenan Karawang (Jawa Barat);A*/B*/C*;Kabupaten Purwakarta
+T;Karesidenan Karawang (Jawa Barat);D*/E*/F*/G*/H*;Kabupaten Karawang
+T;Karesidenan Karawang (Jawa Barat);I*/J*/K*/L*/M*/N*;Kabupaten Karawang
+T;Karesidenan Karawang (Jawa Barat);O*/P*/Q*/R*/S*;Kabupaten Karawang
+T;Karesidenan Karawang (Jawa Barat);T*/U*/V*/W*/X*/Y*/Z*;Sebagian Kabupaten Bekasi & Subang
+;;;
+Z;Priangan Timur (Jawa Barat);A*/B*/C*;Kabupaten Sumedang
+Z;Priangan Timur (Jawa Barat);D**/E*/F*/G*;Kabupaten Garut
+Z;Priangan Timur (Jawa Barat);H*/I*/J*;Kota Tasikmalaya
+Z;Priangan Timur (Jawa Barat);K*/L*/M*/N*;Kabupaten Tasikmalaya
+Z;Priangan Timur (Jawa Barat);O*/P*/Q*/R*/S*;Kabupaten Tasikmalaya
+Z;Priangan Timur (Jawa Barat);T*/U*/V*;Kabupaten Ciamis
+Z;Priangan Timur (Jawa Barat);W*;Kabupaten Pangandaran
+Z;Priangan Timur (Jawa Barat);X*/Y*/Z*;Kota Banjar
+;;;
+G;Karesidenan Pekalongan (Jawa Tengah);*A/*H/*S;Kota Pekalongan
+G;Karesidenan Pekalongan (Jawa Tengah);*B/*K/*O/*T;Kabupaten Pekalongan
+G;Karesidenan Pekalongan (Jawa Tengah);*C/*L/*V/*X;Kabupaten Batang
+G;Karesidenan Pekalongan (Jawa Tengah);*D/*I/*M/*W;Kabupaten Pemalang
+G;Karesidenan Pekalongan (Jawa Tengah);*E/*N/*Y;Kota Tegal
+G;Karesidenan Pekalongan (Jawa Tengah);*F/*P/*Q/*Z;Kabupaten Tegal
+G;Karesidenan Pekalongan (Jawa Tengah);**G/*J/*R/*U;Kabupaten Brebes
+;;;
+H;Karesidenan Semarang (Jawa Tengah);*A/*F/**G/*H/*P/*Q;Kota Semarang
+H;Karesidenan Semarang (Jawa Tengah);*R/*S/**W/*X/*Y/*Z;Kota Semarang
+H;Karesidenan Semarang (Jawa Tengah);*B/*K/*O/*T;Kota Salatiga
+H;Karesidenan Semarang (Jawa Tengah);**C/*I/*L/*V;Kabupaten Semarang
+H;Karesidenan Semarang (Jawa Tengah);**D/*M/*U;Kabupaten Kendal
+H;Karesidenan Semarang (Jawa Tengah);**E/*J/*N;Kabupaten Demak
+;;;
+K;Karesidenan Pati (Jawa Tengah);*A/*G/*H/*S/*U;Kabupaten Pati
+K;Karesidenan Pati (Jawa Tengah);*B/*K/*O/*R/*T;Kabupaten Kudus
+K;Karesidenan Pati (Jawa Tengah);**C/*L/*Q/*V;Kabupaten Jepara
+K;Karesidenan Pati (Jawa Tengah);*D/*I/*M/*W;Kabupaten Rembang
+K;Karesidenan Pati (Jawa Tengah);*E/*N/*X/*Y;Kabupaten Blora
+K;Karesidenan Pati (Jawa Tengah);**F/*J/*P/*Z;Kabupaten Grobogan
+;;;
+R;Karesidenan Banyumas (Jawa Tengah);*A/*E/*G/*H/*J/*S/*X;Kabupaten Banyumas
+R;Karesidenan Banyumas (Jawa Tengah);*B/*F/*K/*N/*P/*R/*T;Kabupaten Cilacap
+R;Karesidenan Banyumas (Jawa Tengah);*C/*L/*Q/*U/*V/*Z;Kabupaten Purbalingga
+R;Karesidenan Banyumas (Jawa Tengah);*D/*I/*M/*O/*W/*Y;Kabupaten Banjarnegara
+;;;
+AA;Karesidenan Kedu (Jawa Tengah);*A/*H/*S/*U;Kota Magelang
+AA;Karesidenan Kedu (Jawa Tengah);*B/*G/*K/*O/*T;Kabupaten Magelang
+AA;Karesidenan Kedu (Jawa Tengah);*C/*L/*Q/*V;Kabupaten Purworejo
+AA;Karesidenan Kedu (Jawa Tengah);*D/*J/*M/*W;Kabupaten Kebumen
+AA;Karesidenan Kedu (Jawa Tengah);*E/*N/*Y;Kabupaten Temanggung
+AA;Karesidenan Kedu (Jawa Tengah);*F/*P/*Z;Kabupaten Wonosobo
+;;;
+AB;DI Yogyakarta;*A/*F/*H/*I/*S;Kota Yogyakarta
+AB;DI Yogyakarta;*B/*G/*J/*K/*T;Kabupaten Bantul
+AB;DI Yogyakarta;*C/*L/*P/*V;Kabupaten Kulon Progo
+AB;DI Yogyakarta;*D/*M/*W;Kabupaten Gunung Kidul
+AB;DI Yogyakarta;*E/*N/*Q/*U/*Y/*Z;Kabupaten Sleman
+;;;
+AD;Solo Raya (Jawa Tengah);**A/*H/*S/*U;Kota Surakarta
+AD;Solo Raya (Jawa Tengah);**B/*K/*O/*T;Kabupaten Sukoharjo
+AD;Solo Raya (Jawa Tengah);**C/*L/*J/*Q/*V;Kabupaten Klaten
+AD;Solo Raya (Jawa Tengah);**D/*M/*W;Kabupaten Boyolali
+AD;Solo Raya (Jawa Tengah);**E/*N/*Y;Kabupaten Sragen
+AD;Solo Raya (Jawa Tengah);**F/*P/*Z;Kabupaten Karanganyar
+AD;Solo Raya (Jawa Tengah);**G/*I/*R;Kabupaten Wonogiri
+L;Surabaya (Jawa Timur);-;Surabaya
+M;Madura (Jawa Timur);A*/B*/C*/D*/E*/F*/G*;Kabupaten Pamekasan
+M;Madura (Jawa Timur);H*/I*/J*/K*/L*/M*/N*;Kabupaten Bangkalan
+M;Madura (Jawa Timur);O*/P*/Q*/R*/S*/T*;Kabupaten Sampang
+M;Madura (Jawa Timur);U*/V*/W*/X*/Y*/Z*;Kabupaten Sumenep
+;;;
+N;Karesidenan Malang (Jawa Timur);A**/B*/C*/E**;Kota Malang
+N;Karesidenan Malang (Jawa Timur);D**/F*/G*/H*/I*/J*;Kabupaten Malang
+N;Karesidenan Malang (Jawa Timur);K**/L*;Kota Batu
+N;Karesidenan Malang (Jawa Timur);M**/N*/P*;Kabupaten Probolinggo
+N;Karesidenan Malang (Jawa Timur);Q**/R*/S*;Kota Probolinggo
+N;Karesidenan Malang (Jawa Timur);O*/T**/W*;Kabupaten Pasuruan
+N;Karesidenan Malang (Jawa Timur);V**/X*;Kota Pasuruan
+N;Karesidenan Malang (Jawa Timur);U**/Y*/Z*;Kabupaten Lumajang
+;;;
+P;Karesidenan Besuki (Jawa Timur);A*/B*/C*/D*;Kabupaten Bondowoso
+P;Karesidenan Besuki (Jawa Timur);E*/F*/G*/H*/I*/J*;Kabupaten Situbondo
+P;Karesidenan Besuki (Jawa Timur);K*/L*/M*/N*/O*;Kabupaten Jember
+P;Karesidenan Besuki (Jawa Timur);P*/Q*/R*/S*/T*;Kabupaten Jember
+P;Karesidenan Besuki (Jawa Timur);U*/V*/W*/X*/Y*/Z*;Kabupaten Banyuwangi
+;;;
+S;Karesidenan Bojonegoro (Jawa Timur);A*/B*/C*/D*;Kabupaten Bojonegoro
+S;Karesidenan Bojonegoro (Jawa Timur);E*/F*/G*/H*;Kabupaten Tuban
+S;Karesidenan Bojonegoro (Jawa Timur);I*/J*/K*/L*;Kabupaten Lamongan
+S;Karesidenan Bojonegoro (Jawa Timur);M*/N*/O*/P*/Q*/R*;Kabupaten Mojokerto
+S;Karesidenan Bojonegoro (Jawa Timur);S*/T*/U*/V*;Kota Mojokerto
+S;Karesidenan Bojonegoro (Jawa Timur);W*/X*/Y*/Z*;Kabupaten Jombang
+;;;
+W;Jawa Timur;A*/B*/C*/D*/E*/F*;Kabupaten Gresik
+W;Jawa Timur;G*/H*/I*/J*/K*/L*/M*;Kabupaten Gresik
+W;Jawa Timur;N*/O*/P*/Q*/R*/S*;Kabupaten Sidoarjo
+W;Jawa Timur;T*/U*/V*/W*/X*/Y*/Z*;Kabupaten Sidoarjo
+;;;
+AE;Karesidenan Madiun (Jawa Timur);A*/B*/C*;Kota Madiun
+AE;Karesidenan Madiun (Jawa Timur);D*/E*/F*/G*;Kabupaten Madiun
+AE;Karesidenan Madiun (Jawa Timur);H*/I*/J*/K*/L*;Kabupaten Ngawi
+AE;Karesidenan Madiun (Jawa Timur);M*/N*/O*/P*/Q*/R*;Kabupaten Magetan
+AE;Karesidenan Madiun (Jawa Timur);S*/T*/U*/V*;Kabupaten Ponorogo
+AE;Karesidenan Madiun (Jawa Timur);W*/X*/Y*/Z*;Kabupaten Pacitan
+;;;
+AG;Karesidenan Kediri (Jawa Timur);A**/B*/C*;Kota Kediri
+AG;Karesidenan Kediri (Jawa Timur);D**/E*/F*/G*/H*/J*;Kabupaten Kediri
+AG;Karesidenan Kediri (Jawa Timur);I*/K**/L*/M*/N*;Kabupaten Blitar
+AG;Karesidenan Kediri (Jawa Timur);O*/R**/S*/T*;Kabupaten Tulungagung
+AG;Karesidenan Kediri (Jawa Timur);P**/Q*;Kota Blitar
+AG;Karesidenan Kediri (Jawa Timur);U**/V*/W*/X*;Kabupaten Nganjuk
+AG;Karesidenan Kediri (Jawa Timur);Y**/Z*;Kabupaten Trenggalek
+;;;
+DH;Pulau Timor (Nusa Tenggara Timur);A*/B*/C*;Kabupaten/Kota Kupang
+DH;Pulau Timor (Nusa Tenggara Timur);D*;Kabupaten Timor Tengah Utara
+DH;Pulau Timor (Nusa Tenggara Timur);E*;Kabupaten Timor Tengah Selatan
+DH;Pulau Timor (Nusa Tenggara Timur);F*;Kabupaten Alor
+DH;Pulau Timor (Nusa Tenggara Timur);G*;Kabupaten Belu
+DH;Pulau Timor (Nusa Tenggara Timur);U*;Kabupaten Rote Ndao
+;;;
+DK;Bali;A**/B*/C*/D*;Kota Denpasar
+DK;Bali;E*/I*/Q*/X*;Kota Denpasar
+DK;Bali;F**/J*/O*;Kabupaten Badung
+DK;Bali;G**/H*;Kabupaten Tabanan
+DK;Bali;K**/L*;Kabupaten Gianyar
+DK;Bali;M**/N*;Kabupaten Klungkung
+DK;Bali;P**/R*;Kabupaten Bangli
+DK;Bali;S**/T*;Kabupaten Karangasem
+DK;Bali;U**/V*;Kabupaten Buleleng
+DK;Bali;W**/Z*;Kabupaten Jembrana
+;;;
+DR;Pulau Lombok (Nusa Tenggara Barat);A*/B*/C*/D*/E*;Kota Mataram
+DR;Pulau Lombok (Nusa Tenggara Barat);H*/J*/K*;Kabupaten Lombok Barat
+DR;Pulau Lombok (Nusa Tenggara Barat);L*;Kabupaten Lombok Timur
+DR;Pulau Lombok (Nusa Tenggara Barat);S*;Kabupaten Lombok Tengah
+;;;
+EA;Pulau Sumbawa (Nusa Tenggara Barat);A*;Kabupaten Sumbawa
+EA;Pulau Sumbawa (Nusa Tenggara Barat);H*;Kabupaten Sumbawa Barat
+EA;Pulau Sumbawa (Nusa Tenggara Barat);R*;Kabupaten Dompu
+EA;Pulau Sumbawa (Nusa Tenggara Barat);S*;Kota Bima
+EA;Pulau Sumbawa (Nusa Tenggara Barat);X*/Y*;Kabupaten Bima
+;;;
+EB;Pulau Flores (Nusa Tenggara Timur);A*;Kabupaten Ende
+EB;Pulau Flores (Nusa Tenggara Timur);B*;Kabupaten Sikka
+EB;Pulau Flores (Nusa Tenggara Timur);C*;Kabupaten Ngada
+EB;Pulau Flores (Nusa Tenggara Timur);D*;Kabupaten Flores Timur
+EB;Pulau Flores (Nusa Tenggara Timur);E*;Kabupaten Manggarai Barat
+EB;Pulau Flores (Nusa Tenggara Timur);F*;Kabupaten Lembata
+EB;Pulau Flores (Nusa Tenggara Timur);G*;Kabupaten Manggarai
+;;;
+ED;Pulau Sumba (Nusa Tenggara Timur);A*;Kabupaten Sumba Barat
+ED;Pulau Sumba (Nusa Tenggara Timur);B*;Kabupaten Sumba Timur
+;;;
+DA;Kalimantan Selatan;A**/C*/I*/J*/N*;Kota Banjarmasin
+DA;Kalimantan Selatan;O*/S*/T**/V*/W*/X*;Kota Banjarmasin
+DA;Kalimantan Selatan;B**/Q*;Kabupaten Banjar
+DA;Kalimantan Selatan;D**;Kabupaten Hulu Sungai Selatan
+DA;Kalimantan Selatan;E**;Kabupaten Hulu Sungai Tengah
+DA;Kalimantan Selatan;F**;Kabupaten Hulu Sungai Utara
+DA;Kalimantan Selatan;G**;Kabupaten Kota Baru
+DA;Kalimantan Selatan;H**/U*;Kabupaten Tabalong
+DA;Kalimantan Selatan;K**;Kabupaten Tapin
+DA;Kalimantan Selatan;L**;Kabupaten Tanah Laut
+DA;Kalimantan Selatan;M**;Kabupaten Barito Kuala
+DA;Kalimantan Selatan;P**/R*;Kota Banjarbaru
+DA;Kalimantan Selatan;Y*;Kabupaten Balangan
+DA;Kalimantan Selatan;Z**;Kabupaten Tanah Bumbu
+;;;
+KB;Kalimantan Barat;A*/Q*/S*/W*;Kota Pontianak
+KB;Kalimantan Barat;B*;Kabupaten Mempawah
+KB;Kalimantan Barat;C*;Kota Singkawang
+KB;Kalimantan Barat;D*;Kabupaten Sanggau
+KB;Kalimantan Barat;E*;Kabupaten Sintang
+KB;Kalimantan Barat;F*;Kabupaten Kapuas Hulu
+KB;Kalimantan Barat;G*;Kabupaten Ketapang
+KB;Kalimantan Barat;H*;Kabupaten Melawi
+KB;Kalimantan Barat;K*;Kabupaten Bengkayang
+KB;Kalimantan Barat;L*;Kabupaten Landak
+KB;Kalimantan Barat;M*;Kabupaten Kubu Raya
+KB;Kalimantan Barat;P*;Kabupaten Sambas
+KB;Kalimantan Barat;V*;Kabupaten Sekadau
+KB;Kalimantan Barat;Z*;Kabupaten Kayong Utara
+;;;
+KH;Kalimantan Tengah;A*/T*/Y*;Kota Palangkaraya
+KH;Kalimantan Tengah;B*/C*;Kabupaten Kapuas
+KH;Kalimantan Tengah;D*;Kabupaten Barito Selatan
+KH;Kalimantan Tengah;E*;Kabupaten Barito Utara
+KH;Kalimantan Tengah;F*/L*/W*;Kabupaten Kotawaringin Timur
+KH;Kalimantan Tengah;G*/V*;Kabupaten Kotawaringin Barat
+KH;Kalimantan Tengah;H*;Kabupaten Gunung Mas
+KH;Kalimantan Tengah;J*;Kabupaten Pulang Pisau
+KH;Kalimantan Tengah;K*;Kabupaten Barito Timur
+KH;Kalimantan Tengah;M*;Kabupaten Murung Raya
+KH;Kalimantan Tengah;N*/U*;Kabupaten Katingan
+KH;Kalimantan Tengah;P*;Kabupaten Seruyan
+KH;Kalimantan Tengah;R*;Kabupaten Lamandau
+KH;Kalimantan Tengah;S*;Kabupaten Sukamara
+;;;
+KT;Kalimantan Timur;A**/K*/L*/Y*/Z*;Kota Balikpapan
+KT;Kalimantan Timur;B**/I*/M*/N*/W*/X*;Kota Samarinda
+KT;Kalimantan Timur;C**/O*/U*;Kabupaten Kutai Kartanegara
+KT;Kalimantan Timur;D**/Q*;Kota Bontang
+KT;Kalimantan Timur;E**;Kabupaten Paser
+KT;Kalimantan Timur;G**;Kabupaten Berau
+KT;Kalimantan Timur;P**;Kabupaten Kutai Barat
+KT;Kalimantan Timur;R**;Kabupaten Kutai Timur
+KT;Kalimantan Timur;V*;Kabupaten Penajam Paser Utara
+;;;
+DB;Sulawesi Utara;A*/L*/M*/R*;Kota Manado
+DB;Sulawesi Utara;B*;Kabupaten Minahasa
+DB;Sulawesi Utara;C*;Kota Bitung
+DB;Sulawesi Utara;D*;Kabupaten Bolaang Mongondow
+DB;Sulawesi Utara;E*;Kabupaten Minahasa Selatan
+DB;Sulawesi Utara;F*;Kabupaten Minahasa Utara
+DB;Sulawesi Utara;G*;Kota Tomohon
+DB;Sulawesi Utara;H*;Kabupaten Bolaang Mongondow Utara
+DB;Sulawesi Utara;J*;Kabupaten Minahasa Tenggara
+DB;Sulawesi Utara;K*;Kota Kotamobagu
+DB;Sulawesi Utara;N*;Kabupaten Bolaang Mongondow Timur
+DB;Sulawesi Utara;P*;Kabupaten Bolaang Mongondow Selatan
+;;;
+DC;Sulawesi Barat;A*;Kabupaten Mamuju
+DC;Sulawesi Barat;B*;Kabupaten Majene
+DC;Sulawesi Barat;C*;Kabupaten Polewali Mandar
+DC;Sulawesi Barat;D*;Kabupaten Mamasa
+DC;Sulawesi Barat;E*;Kabupaten Mamuju Utara
+;;;
+DD;Sulawesi Selatan;A*/K*/Q*;Kota Makassar
+DD;Sulawesi Selatan;B*/L*;Kabupaten Gowa
+DD;Sulawesi Selatan;C*;Kabupaten Takalar
+DD;Sulawesi Selatan;D*;Kabupaten Maros
+DD;Sulawesi Selatan;E*;Kabupaten Pangkajene Kepulauan
+DD;Sulawesi Selatan;F*;Kabupaten Bantaeng
+DD;Sulawesi Selatan;G*;Kabupaten Jeneponto
+DD;Sulawesi Selatan;H*;Kabupaten Bulukumba
+DD;Sulawesi Selatan;J*;Kabupaten Selayar
+;;;
+DL;Sulawesi Utara (Kepulauan);A*;Kabupaten Kepulauan Sangihe
+DL;Sulawesi Utara Kepulauan;B*;Kabupaten Kepulauan Talaud
+DL;Sulawesi Utara Kepulauan;C*;Kabupaten Kepulauan Sitaro
+;;;
+DM;Gorontalo;A*;Kota Gorontalo
+DM;Gorontalo;B*;Kabupaten Gorontalo
+DM;Gorontalo;C*;Kabupaten Boalemo
+DM;Gorontalo;D*;Kabupaten Pohuwato
+DM;Gorontalo;E*;Kabupaten Bone Bolango
+DM;Gorontalo;F*;Kabupaten Gorontalo Utara
+;;;
+DN;Sulawesi Tengah;A*/V*/Y*;Kota Palu
+DN;Sulawesi Tengah;B*;Kabupaten Donggala
+DN;Sulawesi Tengah;C*/R*;Kabupaten Banggai
+DN;Sulawesi Tengah;D*;Kabupaten Toli-Toli
+DN;Sulawesi Tengah;E*;Kabupaten Poso
+DN;Sulawesi Tengah;F*;Kabupaten Buol
+DN;Sulawesi Tengah;G*;Kabupaten Morowali
+DN;Sulawesi Tengah;H*;Kabupaten Banggai Kepulauan
+DN;Sulawesi Tengah;J*/K*;Kabupaten Parigi Moutong
+DN;Sulawesi Tengah;L*;Kabupaten Tojo Una-Una
+DN;Sulawesi Tengah;M*;Kabupaten Sigi
+DN;Sulawesi Tengah;Q*;Kabupaten Banggai Laut
+DN;Sulawesi Tengah;U*;Kabupaten Morowali Utara
+;;;
+DP;Sulawesi Selatan (utara);A*;Kota Parepare
+DP;Sulawesi Selatan (utara);B*;Kabupaten Barru
+DP;Sulawesi Selatan (utara);C*/M*;Kabupaten Sidenreng Rappang
+DP;Sulawesi Selatan (utara);D*/R*;Kabupaten Pinrang
+DP;Sulawesi Selatan (utara);E*;Kota Palopo
+DP;Sulawesi Selatan (utara);F*;Kabupaten Luwu
+DP;Sulawesi Selatan (utara);G*;Kabupaten Luwu Timur
+DP;Sulawesi Selatan (utara);H*;Kabupaten Luwu Utara
+DP;Sulawesi Selatan (utara);I*;Kabupaten Enrekang
+DP;Sulawesi Selatan (utara);J*;Kabupaten Tana Toraja
+DP;Sulawesi Selatan (utara);K*;Kabupaten Toraja Utara
+;;;
+DT;Sulawesi Tenggara;A*;Kabupaten Konawe
+DT;Sulawesi Tenggara;B*;Kabupaten Kolaka Utara
+DT;Sulawesi Tenggara;C*;Kabupaten Wakatobi
+DT;Sulawesi Tenggara;E*;Kota Kendari
+DT;Sulawesi Tenggara;F*;Kabupaten Buton Utara
+DT;Sulawesi Tenggara;G*;Kabupaten Buton
+DT;Sulawesi Tenggara;H*;Kabupaten Konawe Selatan
+DT;Sulawesi Tenggara;J*;Kabupaten Kolaka
+DT;Sulawesi Tenggara;K*;Kabupaten Bombana
+DT;Sulawesi Tenggara;M*;Kabupaten Konawe Utara
+;;;
+DW;Sulawesi Selatan;A*;Kabupaten Bone
+DW;Sulawesi Selatan;B*;Kabupaten Wajo
+DW;Sulawesi Selatan;C*/Y*;Kabupaten Soppeng
+DW;Sulawesi Selatan;D*/Z*;Kabupaten Sinjai
+;;;
+DE;Maluku;A*;Kota Ambon
+DE;Maluku;B*;Kabupaten Maluku Tengah
+DE;Maluku;D*;Kabupaten Buru
+DE;Maluku;E*;Kabupaten Maluku Tenggara
+DE;Maluku;F*;Kabupaten Buru Selatan
+DE;Maluku;J*/K*;Kabupaten Maluku Barat Daya
+DE;Maluku;L*;Kabupaten Seram Bagian Timur
+DE;Maluku;N*;Kabupaten Kepulauan Aru
+DE;Maluku;O*;Kabupaten Seram Bagian Barat
+DE;Maluku;T*;Kota Tual
+;;;
+DG;Maluku Utara;A*;Kota Ternate
+DG;Maluku Utara;B*;Kota Tidore Kepulauan
+DG;Maluku Utara;D*;Kabupaten Halmahera Timur
+DG;Maluku Utara;E*;Kabupaten Kepulauan Sula
+DG;Maluku Utara;K*;Kabupaten Halmahera Selatan
+DG;Maluku Utara;L*;Kabupaten Halmahera Tengah
+DG;Maluku Utara;M*;Kabupaten Halmahera Barat
+DG;Maluku Utara;N*;Kabupaten Halmahera Utara
+DG;Maluku Utara;U*;Kabupaten Pulau Morotai
+;;;
+PA;Papua;A*;Kota Jayapura
+PA;Papua;B*;Kabupaten Jayawijaya
+PA;Papua;C*;Kabupaten Paniai
+PA;Papua;D*;Kabupaten Mimika
+PA;Papua;E*;Kabupaten Nabire
+PA;Papua;G*;Kabupaten Merauke
+PA;Papua;J*;Kabupaten Jayapura
+PA;Papua;K*;Kabupaten Biak Numfor
+PA;Papua;L*;Kabupaten Kepulauan Yapen
+PA;Papua;P*;Kabupaten Puncak Jaya
+;;;
+PB;Papua Barat;B*;Kabupaten Teluk Bintuni
+PB;Papua Barat;F*;Kabupaten Fakfak
+PB;Papua Barat;K*;Kabupaten Kaimana
+PB;Papua Barat;M*;Kabupaten Manokwari
+PB;Papua Barat;S*;Kota Sorong
+PB;Papua Barat;T*;Kabupaten Sorong Selatan
+PB;Papua Barat;V*;Kabupaten Maybrat
+PB;Papua Barat;W*;Kabupaten Teluk Wondama
