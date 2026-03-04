@@ -12,12 +12,31 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// Update bagian ini untuk SEO yang lebih baik
 export const metadata: Metadata = {
   title: "NopolIndo - Cek Plat Nomor Kendaraan & Kode Wilayah Online",
   description: "Cek informasi plat nomor kendaraan (Nopol), arti kode wilayah, dan jenis plat nomor seluruh Indonesia dengan mudah di NopolIndo.",
+  
+  // 1. Tambahkan metadata metadataBase agar URL absolut terbentuk dengan benar
+  metadataBase: new URL('https://nopolindo.vercel.app'),
+
+  // 2. Tambahkan OpenGraph agar nama situs (Site Name) terbaca jelas oleh Google & Media Sosial
+  openGraph: {
+    title: "NopolIndo",
+    description: "Cek informasi plat nomor kendaraan & kode wilayah seluruh Indonesia.",
+    url: "https://nopolindo.vercel.app",
+    siteName: "NopolIndo", // Ini kunci agar nama "NopolIndo" muncul di Google
+    locale: "id_ID",
+    type: "website",
+  },
+
+  // 3. Tambahkan Robots agar Google diizinkan mengindeks
+  robots: {
+    index: true,
+    follow: true,
+  },
+
   verification: {
-    google: "gaw8QXJG1ncc_GUWizolpBtn0xKpAvUlnbZJoaJAIgc", // Kode verifikasi Google kamu
+    google: "gaw8QXJG1ncc_GUWizolpBtn0xKpAvUlnbZJoaJAIgc",
   },
 };
 
@@ -27,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id"> {/* Saya ganti ke "id" agar Google tahu ini web bahasa Indonesia */}
+    <html lang="id"> 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

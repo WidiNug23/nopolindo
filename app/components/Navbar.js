@@ -1,13 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import { FaSun, FaMoon, FaBars } from "react-icons/fa";
+import { usePathname } from "next/navigation";
+import { FaSun, FaMoon, FaBars, FaTimes } from "react-icons/fa";
 import { useState, useEffect } from "react";
 
 export default function Navbar({ darkMode, setDarkMode }) {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
-  // Baca theme dari localStorage saat mount
+  // Handle tema dari localStorage
   useEffect(() => {
     const savedTheme = localStorage.getItem("darkMode");
     if (savedTheme !== null) {
@@ -16,34 +18,58 @@ export default function Navbar({ darkMode, setDarkMode }) {
   }, [setDarkMode]);
 
   const toggleTheme = () => {
-    setDarkMode(!darkMode);
-    localStorage.setItem("darkMode", !darkMode);
+    const newMode = !darkMode;
+    setDarkMode(newMode);
+    localStorage.setItem("darkMode", newMode.toString());
   };
 
-  // Tulisan menu lebih besar
-  const linkClass =
-    "relative block px-3 py-2 text-base md:text-lg font-medium transition-all hover:text-amber-550 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-sky-500 after:transition-all hover:after:w-full";
+  const navLinks = [
+    { name: "Beranda", href: "/" },
+    { name: "Temukan Plat", href: "/temukan-plat" },
+    { name: "Jenis Plat", href: "/jenis-plat" },
+    { name: "Tentang", href: "/tentang" },
+  ];
 
   return (
     <nav
-      className={`sticky top-0 z-50 backdrop-blur-md shadow-lg border-b transition-colors duration-500 ${
+      className={`sticky top-0 z-50 backdrop-blur-md shadow-lg border-b-2 transition-colors duration-500 ${
         darkMode
-          ? "bg-zinc-800/90 border-zinc-700 text-zinc-100"
+          ? "bg-zinc-900/90 border-zinc-800 text-zinc-100"
           : "bg-white/90 border-zinc-200 text-zinc-900"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Logo */}
-        <h1 className="text-2xl md:text-3xl font-bold text-grey-500 tracking-wide">
-          NopolIndo
-        </h1>
+      <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+        {/* Logo - Tetap Bold tanpa tambahan ikon */}
+        <Link href="/">
+          <h1 className="text-2xl md:text-3xl font-black tracking-tighter uppercase italic">
+            NopolIndo
+          </h1>
+        </Link>
 
-        {/* Desktop menu */}
-        <div className="hidden md:flex gap-6 items-center">
-          <Link href="/" className={linkClass}>Beranda</Link>
-          <Link href="/temukan-plat" className={linkClass}>Temukan Plat</Link>
-          <Link href="/jenis-plat" className={linkClass}>Jenis Plat</Link>
-          <Link href="/tentang" className={linkClass}>Tentang</Link>
+        {/* Desktop Menu - Menggunakan Animasi Garis */}
+        <div className="hidden md:flex gap-8 items-center">
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`relative py-1 text-sm font-black uppercase tracking-widest transition-all duration-300 group ${
+                  isActive 
+                    ? (darkMode ? "text-white" : "text-zinc-900") 
+                    : "text-zinc-500 hover:text-zinc-400"
+                }`}
+              >
+                {link.name}
+                {/* Animasi Garis Bawah */}
+                <span 
+                  className={`absolute left-0 -bottom-1 h-0.5 bg-current transition-all duration-300 ${
+                    isActive ? "w-full" : "w-0 group-hover:w-full"
+                  }`}
+                />
+              </Link>
+            );
+          })}
         </div>
 
         {/* Right controls */}
@@ -51,8 +77,10 @@ export default function Navbar({ darkMode, setDarkMode }) {
           {/* Theme toggle */}
           <button
             onClick={toggleTheme}
-            className={`p-2 rounded-full transition-colors duration-300 ${
-              darkMode ? "hover:bg-zinc-700" : "hover:bg-zinc-300"
+            className={`p-2.5 rounded-xl border-2 transition-all duration-300 ${
+              darkMode 
+                ? "border-zinc-800 bg-zinc-800 text-amber-400 hover:border-zinc-700" 
+                : "border-zinc-200 bg-zinc-100 text-zinc-600 hover:border-zinc-300"
             }`}
           >
             {darkMode ? <FaMoon size={18} /> : <FaSun size={18} />}
@@ -60,24 +88,41 @@ export default function Navbar({ darkMode, setDarkMode }) {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 rounded-md hover:bg-zinc-300 transition-colors duration-300"
+            className={`md:hidden p-2.5 rounded-xl border-2 transition-all ${
+              darkMode ? "border-zinc-800 bg-zinc-800" : "border-zinc-200 bg-zinc-100"
+            }`}
             onClick={() => setOpen(!open)}
           >
-            <FaBars size={20} />
+            {open ? <FaTimes size={20} /> : <FaBars size={20} />}
           </button>
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu - Struktur asli yang Anda sukai */}
       <div
-        className={`md:hidden px-6 pb-4 space-y-2 transition-all duration-300 overflow-hidden ${
-          open ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+        className={`md:hidden px-6 transition-all duration-300 overflow-hidden ${
+          open ? "max-h-96 opacity-100 pb-6" : "max-h-0 opacity-0"
         }`}
       >
-        <Link href="/" className={linkClass}>Beranda</Link>
-        <Link href="/temukan-plat" className={linkClass}>Temukan Plat</Link>
-        <Link href="/jenis-plat" className={linkClass}>Jenis Plat</Link>
-        <Link href="/tentang" className={linkClass}>Tentang</Link>
+        <div className="flex flex-col gap-4 pt-2">
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setOpen(false)}
+                className={`text-lg font-black uppercase tracking-tighter transition-all ${
+                  isActive 
+                    ? (darkMode ? "text-white" : "text-zinc-900") 
+                    : "text-zinc-500"
+                }`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
+        </div>
       </div>
     </nav>
   );
